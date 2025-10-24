@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CalculadoraPrj1/1.0.0": {
+        "runtime": {
+          "CalculadoraPrj1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculadoraPrj1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

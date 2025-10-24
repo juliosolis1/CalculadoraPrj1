@@ -1,0 +1,17 @@
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\bin\Debug\net8.0-windows\CalculadoraPrj1.exe
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\bin\Debug\net8.0-windows\CalculadoraPrj1.deps.json
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\bin\Debug\net8.0-windows\CalculadoraPrj1.runtimeconfig.json
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\bin\Debug\net8.0-windows\CalculadoraPrj1.dll
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\bin\Debug\net8.0-windows\CalculadoraPrj1.pdb
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.Calculadora.resources
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.csproj.GenerateResource.cache
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.AssemblyInfoInputs.cache
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.AssemblyInfo.cs
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.csproj.CoreCompileInputs.cache
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.sourcelink.json
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.dll
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\refint\CalculadoraPrj1.dll
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.pdb
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\CalculadoraPrj1.genruntimeconfig.cache
+C:\Users\jsass\source\repos\CalculadoraPrj1\CalculadoraPrj1\obj\Debug\net8.0-windows\ref\CalculadoraPrj1.dll

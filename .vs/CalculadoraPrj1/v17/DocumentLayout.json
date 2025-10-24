@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jsass\\source\\repos\\CalculadoraPrj1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5BA492E-18D2-447A-AAA8-F6D704AEF155}|CalculadoraPrj1\\CalculadoraPrj1.csproj|c:\\users\\jsass\\source\\repos\\calculadoraprj1\\calculadoraprj1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5BA492E-18D2-447A-AAA8-F6D704AEF155}|CalculadoraPrj1\\CalculadoraPrj1.csproj|solutionrelative:calculadoraprj1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5BA492E-18D2-447A-AAA8-F6D704AEF155}|CalculadoraPrj1\\CalculadoraPrj1.csproj|c:\\users\\jsass\\source\\repos\\calculadoraprj1\\calculadoraprj1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E5BA492E-18D2-447A-AAA8-F6D704AEF155}|CalculadoraPrj1\\CalculadoraPrj1.csproj|solutionrelative:calculadoraprj1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jsass\\source\\repos\\CalculadoraPrj1\\CalculadoraPrj1\\Form1.cs",
               "RelativeDocumentMoniker": "CalculadoraPrj1\\Form1.cs",
               "ToolTip": "C:\\Users\\jsass\\source\\repos\\CalculadoraPrj1\\CalculadoraPrj1\\Form1.cs [Design]",
               "RelativeToolTip": "CalculadoraPrj1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:50:14.095Z",
+              "WhenOpened": "2025-10-24T15:57:23.069Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jsass\\source\\repos\\CalculadoraPrj1\\CalculadoraPrj1\\Form1.cs",
+              "RelativeDocumentMoniker": "CalculadoraPrj1\\Form1.cs",
+              "ToolTip": "C:\\Users\\jsass\\source\\repos\\CalculadoraPrj1\\CalculadoraPrj1\\Form1.cs",
+              "RelativeToolTip": "CalculadoraPrj1\\Form1.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAmwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:15:47.621Z",
+              "EditorCaption": ""
             }
           ]
         }
