@@ -78,6 +78,8 @@ namespace CalculadoraPrj1
         {
             try
             {
+                decimal resultadoAnterior = acumulado;
+
                 switch (operacion)
                 {
                     case "+": acumulado = acumulado + operando; break;
@@ -91,6 +93,14 @@ namespace CalculadoraPrj1
                     default: acumulado = operando; break;
                 }
                 Mostrar(acumulado);
+
+                if (!string.IsNullOrEmpty(operacion))
+                {
+                    string operacionCompleta = $"{resultadoAnterior} {operacion} {operando}";
+                    string resultadoStr = acumulado.ToString("G29", CultureInfo.InvariantCulture);
+                    //Se guarda la operacion en la base de datos
+                    ConexionBD.GuardarOperacion(operacionCompleta, resultadoStr);
+                }
                 return true;
             }
             catch (DivideByZeroException)
@@ -164,6 +174,12 @@ namespace CalculadoraPrj1
             if (!TryLeer(out var x)) return;
             var r = x * x;
             Mostrar(r);
+
+            //Guardar operacion al cuadrado en la base de datos
+            string operacionCuadrado = $"{x} ^ 2";
+            string resultadoStr = r.ToString("G29", CultureInfo.InvariantCulture);
+            ConexionBD.GuardarOperacion(operacionCuadrado, resultadoStr);
+
             iniciarNuevaEntrada = true;
         }
 
@@ -183,6 +199,13 @@ namespace CalculadoraPrj1
 
             double r = Math.Sqrt((double)x);
             Mostrar((decimal)r);
+
+            //Guardar operacion de raiz en la base de datos
+            string operacionRaiz = $"sqrt({x})";
+            string resultadoStr = ((decimal)r).ToString("G29", CultureInfo.InvariantCulture);
+
+            ConexionBD.GuardarOperacion(operacionRaiz, resultadoStr);
+
             iniciarNuevaEntrada = true;
         }
 
