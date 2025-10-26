@@ -3,7 +3,7 @@ CREATE DATABASE CalculadoraDB
 ON PRIMARY
 (
 	NAME = 'Calculadora_Data',
-	FILENAME = 'C:\SQL222\proyecto\Data\Calculadora.mdf',
+	FILENAME = 'C:\SQL222\proyecto\Data\Calculadora.mdf', --CREAR ESTAS CARPETAS ANTES DE CORRER LA CREACION DE LA BD
 	SIZE = 10MB,
 	MAXSIZE = 20MB,
 	FILEGROWTH = 5MB
@@ -11,7 +11,7 @@ ON PRIMARY
 LOG ON
 (
 	NAME = 'Calculadora_Log',
-	FILENAME = 'C:\SQL222\proyecto\Log\Calculadora_Log.ldf',
+	FILENAME = 'C:\SQL222\proyecto\Log\Calculadora_Log.ldf', --CREAR ESTAS CARPETAS ANTES DE CORRER LA CREACION DE LA BD
 	SIZE = 5MB,
 	MAXSIZE = 10MB,
 	FILEGROWTH = 2MB
