@@ -5,8 +5,7 @@ namespace CalculadoraPrj1
     internal class ConexionBD
     {
         private static string cadenaConexion =
-        "Server=127.0.0.1;Database=CalculadoraDB;User Id=calculadora_user;Password=Calc2025!;" +
-    "Encrypt=true;TrustServerCertificate=true;";
+        "Server=localhost;Database=CalculadoraDB_;Trusted_Connection=True;";
 
         public static SqlConnection ObtenerConexion()
         {
