@@ -9,7 +9,7 @@ namespace CalculadoraPrj1
         // ===== Estado interno =====
         private decimal acumulado = 0m;      // Guarda resultados intermedios
         private string operacion = null;     // "+", "-", "*", "/"
-        private bool iniciarNuevaEntrada = true; // Para iniciar nueva entrada tras operaci�n/igual
+        private bool iniciarNuevaEntrada = true; // Para iniciar nueva entrada tras operación/igual
         private bool huboError = false;
 
         public Calculadora()
@@ -64,7 +64,7 @@ namespace CalculadoraPrj1
             {
                 acumulado = actual;
             }
-            else if (!iniciarNuevaEntrada) // cadena op con otro n�mero ya ingresado
+            else if (!iniciarNuevaEntrada) // cadena op con otro número ya ingresado
             {
                 if (!AplicarOperacion(actual))
                     return; // si hubo error (p.ej., div/0)
@@ -124,16 +124,16 @@ namespace CalculadoraPrj1
 
         // === Eventos ===
 
-        // Display (si decides permitir edici�n manual, aqu� podr�as validar)
+        // Display (si decides permitir edición manual, aquí podrás validar)
         private void calculo_TextChanged(object sender, EventArgs e)
         {
-            // Mant�n el comportamiento simple: el display solo muestra.
-            // Si el usuario escribe a mano, intentamos validar n�mero.
+            // Mantén el comportamiento simple: el display solo muestra.
+            // Si el usuario escribe a mano, intentamos validar número.
             if (huboError) return;
 
             string t = calculo.Text.Trim();
 
-            // Evita strings vac�os
+            // Evita strings vacíos
             if (t.Length == 0)
             {
                 calculo.Text = "0";
@@ -217,7 +217,7 @@ namespace CalculadoraPrj1
             Mostrar(x);
         }
 
-        // === D�gitos ===
+        // === Dígitos ===
         private void cero_Click(object sender, EventArgs e) => AppendDigito("0");
         private void uno_Click(object sender, EventArgs e) => AppendDigito("1");
         private void dos_Click(object sender, EventArgs e) => AppendDigito("2");
@@ -260,7 +260,7 @@ namespace CalculadoraPrj1
 
             if (operacion == null)
             {
-                // No hay operaci�n pendiente: reafirma el n�mero mostrado
+                // No hay operación pendiente: reafirma el número mostrado
                 Mostrar(actual);
                 iniciarNuevaEntrada = true;
                 return;
@@ -268,7 +268,7 @@ namespace CalculadoraPrj1
 
             if (AplicarOperacion(actual))
             {
-                // Muestra resultado final y resetea la operaci�n
+                // Muestra resultado final y resetea la operación
                 operacion = null;
                 iniciarNuevaEntrada = true;
             }
